@@ -1,6 +1,29 @@
 
 # HL7 Converter
 This convert HL7 files to either XML or JSON files. There is also a module for converting XML files to JSON. NOTE the CLI scripts have to be ran in the same directory as the "HL7 Parser" package is located.
+# HL7Parse Library
+The HL7Parse Library consists of 6 main functions:
+
+**`hl7_to_dict`**, **`hl7_to_xml`**, **`hl7_to_xml_file`**, **`hl7_to_json_file`**, **`hl7_file_to_json`**, and **`hl7_file_to_xml_file`**.
+
+**`hl7_to_dict`** takes in the HL7 message as a string, and returns the dictionary (in this case, it's basically JSON)
+
+**`hl7_to_xml`** takes in the HL7 message as a string, and returns the XML as a string
+
+**`hl7_to_xml_file`** takes in the HL7 message as a string, and the file path to the output XML file (as a string). This function takes the raw HL7, and outputs the XML equivalent in the specified XML output file.
+
+**`hl7_to_json_file`** takes in the HL7 message as a string, and the file path to the output JSON file (as a string). This function takes the raw HL7, and outputs the JSON equivalent in the specified JSON output file.
+
+**`hl7_file_to_json`** takes in a file path to an HL7 file, and an output path to the output JSON file.
+
+**`hl7_file_to_xml`** takes in a file path to an HL7 file, and an output path to the output XML file.
+
+# xml_to_json Library
+the xml_to_json library has 2 main functions: **`xml_to_json`**, and **`xml_file_to_json_file`**.
+
+**`xml_to_json`** takes in the raw XML data as a string, and outputs the raw JSON as a json dump
+
+**`xml_file_to_json_file`** takes in the file path to an XML file, and a file path to the output JSON file
 ## Usage/Examples
 To convert HL7 to an XML file, use this CMD command:
 ```cmd
@@ -1118,26 +1141,3 @@ JSON output file contents:
   }
 }
 ```
-# HL7Parse Library
-The HL7Parse Library consists of 6 main functions:
-
-**`hl7_to_dict`**, **`hl7_to_xml`**, **`hl7_to_xml_file`**, **`hl7_to_json_file`**, **`hl7_file_to_json`**, and **`hl7_file_to_xml_file`**.
-
-**`hl7_to_dict`** takes in the HL7 message as a string, and returns the dictionary (in this case, it's basically JSON)
-
-**`hl7_to_xml`** takes in the HL7 message as a string, and returns the XML as a string
-
-**`hl7_to_xml_file`** takes in the HL7 message as a string, and the file path to the output XML file (as a string). This function takes the raw HL7, and outputs the XML equivalent in the specified XML output file.
-
-**`hl7_to_json_file`** takes in the HL7 message as a string, and the file path to the output JSON file (as a string). This function takes the raw HL7, and outputs the JSON equivalent in the specified JSON output file.
-
-**`hl7_file_to_json`** takes in a file path to an HL7 file, and an output path to the output JSON file.
-
-**`hl7_file_to_xml`** takes in a file path to an HL7 file, and an output path to the output XML file.
-
-# xml_to_json Library
-the xml_to_json library has 2 main functions: **`xml_to_json`**, and **`xml_file_to_json_file`**.
-
-**`xml_to_json`** takes in the raw XML data as a string, and outputs the raw JSON as a json dump
-
-**`xml_file_to_json_file`** takes in the file path to an XML file, and a file path to the output JSON file
