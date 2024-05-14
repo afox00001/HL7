@@ -4,7 +4,7 @@ This convert HL7 files to either XML or JSON files. There is also a module for c
 # HL7Parse Library
 The HL7Parse Library consists of 6 main functions:
 
-**`hl7_to_dict`**, **`hl7_to_xml`**, **`hl7_to_xml_file`**, **`hl7_to_json_file`**, **`hl7_file_to_json`**, and **`hl7_file_to_xml_file`**.
+**`hl7_to_dict`**, **`hl7_to_xml`**, **`hl7_to_xml_file`**, **`hl7_to_json_file`**, **`hl7_file_to_json_file`**, and **`hl7_file_to_xml_file`**.
 
 **`hl7_to_dict`** takes in the HL7 message as a string, and returns the dictionary (in this case, it's basically JSON)
 
@@ -14,7 +14,7 @@ The HL7Parse Library consists of 6 main functions:
 
 **`hl7_to_json_file`** takes in the HL7 message as a string, and the file path to the output JSON file (as a string). This function takes the raw HL7, and outputs the JSON equivalent in the specified JSON output file.
 
-**`hl7_file_to_json`** takes in a file path to an HL7 file, and an output path to the output JSON file.
+**`hl7_file_to_json_file`** takes in a file path to an HL7 file, and an output path to the output JSON file.
 
 **`hl7_file_to_xml`** takes in a file path to an HL7 file, and an output path to the output XML file.
 
