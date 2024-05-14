@@ -1,0 +1,386 @@
+{
+  "MSH": {
+    "field_separator": [
+      "|"
+    ],
+    "encoding_characters": [
+      "^~\\\\&"
+    ],
+    "sending_application": [
+      "EPIC"
+    ],
+    "sending_facility": [
+      "EPICADT"
+    ],
+    "receiving_application": [
+      "iFW"
+    ],
+    "receiving_facility": [
+      "SMSADT"
+    ],
+    "message_datetime": [
+      "199912271408"
+    ],
+    "security": [
+      "CHARRIS"
+    ],
+    "message_type": [
+      "ADT",
+      "A04"
+    ],
+    "message_control_id": [
+      "1817457"
+    ],
+    "processing_id": [
+      "D"
+    ],
+    "version_id": [
+      "2.5"
+    ],
+    "sequence_number": [
+      ""
+    ]
+  },
+  "PID": {
+    "set_id_pid": [
+      ""
+    ],
+    "patient_id": [
+      "0493575",
+      "",
+      "",
+      "2",
+      "ID 1"
+    ],
+    "patient_identifier_list": [
+      "454721"
+    ],
+    "alt_patient_id": [
+      ""
+    ],
+    "patient_name": [
+      "DOE",
+      "JOHN",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "mothers_maiden_name": [
+      "DOE",
+      "JOHN",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "dob": [
+      "19480203"
+    ],
+    "administrative_sex": [
+      "M"
+    ],
+    "patient_alias": [
+      ""
+    ],
+    "race": [
+      "B"
+    ],
+    "patient_address": [
+      "254 MYSTREET AVE",
+      "",
+      "MYTOWN",
+      "OH",
+      "44123",
+      "USA"
+    ],
+    "country_code": [
+      ""
+    ],
+    "phone_number_home": [
+      "(216)123-4567"
+    ],
+    "patient_phone_number_business": [
+      ""
+    ],
+    "primary_language": [
+      ""
+    ],
+    "marital_status": [
+      "M"
+    ],
+    "religion": [
+      "NON"
+    ],
+    "patient_account_number": [
+      "400003403~1129086"
+    ],
+    "ssn": [
+      ""
+    ]
+  },
+  "NK1": {
+    "set_id_nk1": [
+      ""
+    ],
+    "nk_name": [
+      "ROE",
+      "MARIE",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "relationship": [
+      "SPO"
+    ],
+    "address": [
+      ""
+    ],
+    "phone_number": [
+      "(216)123-4567"
+    ],
+    "business_phone_number": [
+      ""
+    ],
+    "contact_role": [
+      "EC"
+    ],
+    "start_date": [
+      ""
+    ],
+    "end_date": [
+      ""
+    ],
+    "next_of_kin_associated_parties_job_title": [
+      ""
+    ],
+    "next_of_kin_associated_parties_job_class_code": [
+      ""
+    ],
+    "org_name": [
+      ""
+    ],
+    "marital_status": [
+      ""
+    ],
+    "religion": [
+      ""
+    ],
+    "administrative_sex": [
+      ""
+    ],
+    "dob": [
+      ""
+    ],
+    "living_dependency": [
+      ""
+    ],
+    "ambulatory_status": [
+      ""
+    ],
+    "primary_language": [
+      ""
+    ],
+    "citizenship_status": [
+      ""
+    ],
+    "living_arrangement": [
+      ""
+    ],
+    "publicity_code": [
+      ""
+    ],
+    "protection_indicator": [
+      ""
+    ],
+    "student_indicator": [
+      ""
+    ],
+    "mothers_maiden_name": [
+      ""
+    ],
+    "nationality": [
+      ""
+    ],
+    "ethnicity_group": [
+      ""
+    ],
+    "contact_reason": [
+      ""
+    ],
+    "contact_persons_name": [
+      ""
+    ],
+    "contact_persons_phone_number_home": [
+      ""
+    ],
+    "contact_persons_address": [
+      ""
+    ]
+  },
+  "PV1": {
+    "set_id_pv1": [
+      ""
+    ],
+    "patient_class": [
+      "O"
+    ],
+    "assigned_patient_location": [
+      "168 ~219~C~PMA",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "admission_type": [
+      ""
+    ],
+    "preadmit_number": [
+      ""
+    ],
+    "prior_patient_location": [
+      ""
+    ],
+    "attending_doctor": [
+      "277",
+      "ALLEN MYLASTNAME",
+      "BONNIE",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "referring_doctor": [
+      ""
+    ],
+    "consulting_doctor": [
+      ""
+    ],
+    "hospital_service": [
+      ""
+    ],
+    "temporary_location": [
+      ""
+    ],
+    "preadmit_test_indicator": [
+      ""
+    ],
+    "re_admission_indicator": [
+      ""
+    ],
+    "admit_source": [
+      ""
+    ],
+    "ambulatory_status": [
+      ""
+    ],
+    "vip_indicator": [
+      ""
+    ],
+    "admitting_doctor": [
+      " "
+    ],
+    "patient_type": [
+      ""
+    ],
+    "visit_number": [
+      "2688684"
+    ],
+    "financial_class": [
+      ""
+    ],
+    "charge_price_indicator": [
+      ""
+    ],
+    "courtesy_code": [
+      ""
+    ],
+    "credit_rating": [
+      ""
+    ],
+    "contract_code": [
+      ""
+    ],
+    "contract_effective_date": [
+      ""
+    ],
+    "contract_period": [
+      ""
+    ],
+    "contract_amount": [
+      ""
+    ],
+    "interest_code": [
+      ""
+    ],
+    "transfer_to_bad_debt_code": [
+      ""
+    ],
+    "transfer_to_bad_debt_date": [
+      ""
+    ],
+    "bad_debt_agency_code": [
+      ""
+    ],
+    "bad_debt_transfer_amount": [
+      ""
+    ],
+    "bad_debt_recovery_amount": [
+      ""
+    ],
+    "delete_account_indicator": [
+      ""
+    ],
+    "delete_account_date": [
+      ""
+    ],
+    "discharge_disposition": [
+      ""
+    ],
+    "discharge_to_location": [
+      ""
+    ],
+    "diet_type": [
+      ""
+    ],
+    "servicing_facility": [
+      ""
+    ],
+    "bed_status": [
+      ""
+    ],
+    "account_status": [
+      ""
+    ],
+    "pending_location": [
+      ""
+    ],
+    "prior_temporary_location": [
+      "199912271408"
+    ],
+    "admit_date_time": [
+      ""
+    ],
+    "discharge_date_time": [
+      ""
+    ],
+    "current_patient_balance": [
+      ""
+    ],
+    "total_charges": [
+      ""
+    ],
+    "total_adjustments": [
+      ""
+    ],
+    "total_payments": [
+      "002376853"
+    ]
+  }
+}

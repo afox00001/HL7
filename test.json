@@ -1,0 +1,563 @@
+{
+  "MSH": {
+    "field_separator": [
+      "|"
+    ],
+    "encoding_characters": [
+      "^~\\&"
+    ],
+    "sending_application": [
+      "MESA_OP"
+    ],
+    "sending_facility": [
+      "XYZ_HOSPITAL"
+    ],
+    "receiving_application": [
+      "iFW"
+    ],
+    "receiving_facility": [
+      "ABC_HOSPITAL"
+    ],
+    "date_time_of_message": [
+      "20110613061611"
+    ],
+    "security": [
+      ""
+    ],
+    "message_type": [
+      "SIU",
+      "S12"
+    ],
+    "message_control_id": [
+      "24916560"
+    ],
+    "processing_id": [
+      "P"
+    ],
+    "version_id": [
+      "2.3"
+    ],
+    "sequence_number": [
+      ""
+    ],
+    "continuation_pointer": [
+      ""
+    ],
+    "accept_acknowledgment_type": [
+      ""
+    ],
+    "application_acknowledgment_type": [
+      ""
+    ],
+    "country_code": [
+      ""
+    ],
+    "character_set": [
+      ""
+    ]
+  },
+  "SCH": {
+    "placer_appointment_id": [
+      "10345",
+      "10345"
+    ],
+    "filler_appointment_id": [
+      "2196178",
+      "2196178"
+    ],
+    "occurrence_number": [
+      ""
+    ],
+    "placer_group_number": [
+      ""
+    ],
+    "schedule_id": [
+      "10345"
+    ],
+    "event_reason": [
+      "OFFICE",
+      "Office visit"
+    ],
+    "appointment_reason": [
+      "reason for the appointment"
+    ],
+    "appointment_type": [
+      "OFFICE"
+    ],
+    "appointment_duration": [
+      "60"
+    ],
+    "appointment_duration_units": [
+      "m"
+    ],
+    "appointment_timing_quantity": [
+      "",
+      "",
+      "60",
+      "20110617084500",
+      "20110617093000"
+    ],
+    "placer_contact_person": [
+      ""
+    ],
+    "placer_contact_phone_number": [
+      ""
+    ],
+    "placer_contact_address": [
+      ""
+    ],
+    "placer_contact_location": [
+      ""
+    ],
+    "filler_contact_person": [
+      "9",
+      "DENT",
+      "ARTHUR",
+      ""
+    ],
+    "filler_contact_phone_number": [
+      ""
+    ],
+    "filler_contact_address": [
+      ""
+    ],
+    "filler_contact_location": [
+      ""
+    ],
+    "entered_by_person": [
+      "9",
+      "DENT",
+      "COREY",
+      ""
+    ],
+    "entered_by_phone_number": [
+      ""
+    ],
+    "entered_by_location": [
+      ""
+    ],
+    "parent_placer_appointment_id": [
+      ""
+    ],
+    "parent_filler_appointment_id": [
+      ""
+    ],
+    "filler_status_code": [
+      "Scheduled"
+    ]
+  },
+  "PID": {
+    "set_id___pid": [
+      "1"
+    ],
+    "patient_id": [
+      ""
+    ],
+    "patient_identifier_list": [
+      "42"
+    ],
+    "alternate_patient_id___pid": [
+      ""
+    ],
+    "patient_name": [
+      "SMITH",
+      "PAUL"
+    ],
+    "mother's_maiden_name": [
+      ""
+    ],
+    "date_time_of_birth": [
+      "19781012"
+    ],
+    "administrative_sex": [
+      "M"
+    ],
+    "patient_alias": [
+      ""
+    ],
+    "race": [
+      ""
+    ],
+    "patient_address": [
+      "1 Broadway Ave",
+      "",
+      "Fort Wayne",
+      "IN",
+      "46804"
+    ],
+    "county_code": [
+      ""
+    ],
+    "phone_number___home": [
+      "(260)555-1234"
+    ],
+    "phone_number___business": [
+      ""
+    ],
+    "primary_language": [
+      ""
+    ],
+    "marital_status": [
+      "S"
+    ],
+    "religion": [
+      ""
+    ],
+    "patient_account_number": [
+      "999999999"
+    ],
+    "ssn_number___patient": [
+      ""
+    ],
+    "driver's_license_number___patient": [
+      ""
+    ],
+    "mother's_identifier": [
+      ""
+    ],
+    "ethnic_group": [
+      ""
+    ],
+    "birth_place": [
+      ""
+    ],
+    "multiple_birth_indicator": [
+      ""
+    ],
+    "birth_order": [
+      ""
+    ],
+    "citizenship": [
+      ""
+    ],
+    "veterans_military_status": [
+      ""
+    ],
+    "nationality": [
+      ""
+    ],
+    "patient_death_date_and_time": [
+      ""
+    ],
+    "patient_death_indicator": [
+      ""
+    ],
+    "identity_unknown_indicator": [
+      ""
+    ],
+    "identity_reliability_code": [
+      ""
+    ],
+    "last_update_date_time": [
+      ""
+    ],
+    "last_update_facility": [
+      ""
+    ],
+    "species_code": [
+      ""
+    ],
+    "breed_code": [
+      ""
+    ],
+    "strain": [
+      ""
+    ],
+    "production_class_code": [
+      ""
+    ],
+    "tribal_citizenship": [
+      ""
+    ]
+  },
+  "PV1": {
+    "set_id___pv1": [
+      "1"
+    ],
+    "patient_class": [
+      "O"
+    ],
+    "assigned_patient_location": [
+      ""
+    ],
+    "admission_type": [
+      ""
+    ],
+    "preadmit_number": [
+      ""
+    ],
+    "prior_patient_location": [
+      ""
+    ],
+    "attending_doctor": [
+      "1",
+      "Smith",
+      "Miranda",
+      "A",
+      "MD",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "referring_doctor": [
+      "2",
+      "Withers",
+      "Peter",
+      "D",
+      "MD",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "consulting_doctor": [
+      ""
+    ],
+    "hospital_service": [
+      ""
+    ],
+    "temporary_location": [
+      ""
+    ],
+    "preadmit_test_indicator": [
+      ""
+    ],
+    "re_admission_indicator": [
+      ""
+    ],
+    "admit_source": [
+      ""
+    ],
+    "ambulatory_status": [
+      ""
+    ],
+    "vip_indicator": [
+      ""
+    ],
+    "admitting_doctor": [
+      ""
+    ],
+    "patient_type": [
+      ""
+    ],
+    "visit_number": [
+      ""
+    ],
+    "financial_class": [
+      ""
+    ],
+    "charge_price_indicator": [
+      ""
+    ],
+    "courtesy_code": [
+      ""
+    ],
+    "credit_rating": [
+      ""
+    ],
+    "contract_code": [
+      ""
+    ],
+    "contract_effective_date": [
+      ""
+    ],
+    "contract_amount": [
+      ""
+    ],
+    "contract_period": [
+      ""
+    ],
+    "interest_code": [
+      ""
+    ],
+    "transfer_to_bad_debt_code": [
+      ""
+    ],
+    "transfer_to_bad_debt_date": [
+      ""
+    ],
+    "bad_debt_agency_code": [
+      ""
+    ],
+    "bad_debt_transfer_amount": [
+      ""
+    ],
+    "bad_debt_recovery_amount": [
+      ""
+    ],
+    "delete_account_indicator": [
+      ""
+    ],
+    "delete_account_date": [
+      ""
+    ],
+    "discharge_disposition": [
+      ""
+    ],
+    "discharged_to_location": [
+      ""
+    ],
+    "diet_type": [
+      ""
+    ],
+    "servicing_facility": [
+      ""
+    ],
+    "bed_status": [
+      ""
+    ],
+    "account_status": [
+      ""
+    ],
+    "pending_location": [
+      ""
+    ],
+    "prior_temporary_location": [
+      ""
+    ],
+    "admit_date_time": [
+      ""
+    ],
+    "discharge_date_time": [
+      ""
+    ],
+    "current_patient_balance": [
+      ""
+    ],
+    "total_charges": [
+      ""
+    ],
+    "total_adjustments": [
+      ""
+    ],
+    "total_payments": [
+      ""
+    ],
+    "alternate_visit_id": [
+      "99158"
+    ],
+    "visit_indicator": [
+      ""
+    ],
+    "other_healthcare_provider": [
+      ""
+    ]
+  },
+  "RGS": {
+    "set_id___rgs": [
+      "1"
+    ],
+    "segment_action_code": [
+      "A"
+    ]
+  },
+  "AIG": {
+    "set_id___aig": [
+      "1"
+    ],
+    "segment_action_code": [
+      "A"
+    ],
+    "resource_id": [
+      "1",
+      "White, Charles"
+    ],
+    "resource_type": [
+      "D",
+      "",
+      ""
+    ]
+  },
+  "AIL": {
+    "set_id___ail": [
+      "1"
+    ],
+    "segment_action_code": [
+      "A"
+    ],
+    "location_resource_id": [
+      "OFFICE",
+      "",
+      "",
+      "OFFICE"
+    ],
+    "location_type_ail": [
+      "",
+      "Main Office"
+    ],
+    "location_group": [
+      ""
+    ],
+    "start_date_time": [
+      "20110614084500"
+    ],
+    "start_date_time_offset": [
+      ""
+    ],
+    "start_date_time_offset_units": [
+      ""
+    ],
+    "duration": [
+      "45"
+    ],
+    "duration_units": [
+      "m",
+      "Minutes"
+    ],
+    "allow_substitution_code": [
+      ""
+    ],
+    "filler_status_code": [
+      "Scheduled"
+    ]
+  },
+  "AIP": {
+    "set_id___aip": [
+      "1"
+    ],
+    "segment_action_code": [
+      "A"
+    ],
+    "personnel_resource_id": [
+      "1",
+      "White",
+      "Charles",
+      "A",
+      "MD",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "resource_type": [
+      "D",
+      "White, Douglas"
+    ],
+    "resource_group": [
+      ""
+    ],
+    "start_date_time": [
+      "20110614084500"
+    ],
+    "start_date_time_offset": [
+      ""
+    ],
+    "start_date_time_offset_units": [
+      ""
+    ],
+    "duration": [
+      "45"
+    ],
+    "duration_units": [
+      "m",
+      "Minutes"
+    ],
+    "allow_substitution_code": [
+      ""
+    ],
+    "filler_status_code": [
+      "Scheduled"
+    ]
+  }
+}

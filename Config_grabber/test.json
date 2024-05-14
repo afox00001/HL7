@@ -1,0 +1,219 @@
+{
+  "SegmentDefinitionEnvelope": {
+    "@xmlns:i": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xmlns": "http://schemas.datacontract.org/2004/07/Caristix.HL7Definition.Interface.Envelopes",
+    "Chapters": {
+      "@xmlns:d2p1": "http://schemas.microsoft.com/2003/10/Serialization/Arrays",
+      "d2p1:string": "CH_06"
+    },
+    "Description": "The ACC segment contains patient information relative to an accident in which the patient has been involved.",
+    "Fields": {
+      "FieldEnvelope": [
+        {
+          "DataType": "TS",
+          "DataTypeName": "Time Stamp",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.1",
+          "Length": "26",
+          "Name": "Accident Date/Time",
+          "Position": "ACC.1",
+          "Rpt": "1",
+          "TableId": {
+            "@i:nil": "true"
+          },
+          "TableName": {
+            "@i:nil": "true"
+          },
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "CE",
+          "DataTypeName": "Coded Element",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.2",
+          "Length": "250",
+          "Name": "Accident Code",
+          "Position": "ACC.2",
+          "Rpt": "1",
+          "TableId": "0050",
+          "TableName": "Accident Code",
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "ST",
+          "DataTypeName": "String Data",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.3",
+          "Length": "25",
+          "Name": "Accident Location",
+          "Position": "ACC.3",
+          "Rpt": "1",
+          "TableId": {
+            "@i:nil": "true"
+          },
+          "TableName": {
+            "@i:nil": "true"
+          },
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "CE",
+          "DataTypeName": "Coded Element",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.4",
+          "Length": "250",
+          "Name": "Auto Accident State",
+          "Position": "ACC.4",
+          "Rpt": "1",
+          "TableId": "0347",
+          "TableName": "State/province",
+          "Type": "Field",
+          "Usage": "B"
+        },
+        {
+          "DataType": "ID",
+          "DataTypeName": "Coded values for HL7 tables",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.5",
+          "Length": "1",
+          "Name": "Accident Job Related Indicator",
+          "Position": "ACC.5",
+          "Rpt": "1",
+          "TableId": "0136",
+          "TableName": "Yes/no indicator",
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "ID",
+          "DataTypeName": "Coded values for HL7 tables",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.6",
+          "Length": "12",
+          "Name": "Accident Death Indicator",
+          "Position": "ACC.6",
+          "Rpt": "1",
+          "TableId": "0136",
+          "TableName": "Yes/no indicator",
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "XCN",
+          "DataTypeName": "Extended Composite ID Number and Name for Persons",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.7",
+          "Length": "250",
+          "Name": "Entered By",
+          "Position": "ACC.7",
+          "Rpt": "1",
+          "TableId": {
+            "@i:nil": "true"
+          },
+          "TableName": {
+            "@i:nil": "true"
+          },
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "ST",
+          "DataTypeName": "String Data",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.8",
+          "Length": "25",
+          "Name": "Accident Description",
+          "Position": "ACC.8",
+          "Rpt": "1",
+          "TableId": {
+            "@i:nil": "true"
+          },
+          "TableName": {
+            "@i:nil": "true"
+          },
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "ST",
+          "DataTypeName": "String Data",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.9",
+          "Length": "80",
+          "Name": "Brought In By",
+          "Position": "ACC.9",
+          "Rpt": "1",
+          "TableId": {
+            "@i:nil": "true"
+          },
+          "TableName": {
+            "@i:nil": "true"
+          },
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "ID",
+          "DataTypeName": "Coded values for HL7 tables",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.10",
+          "Length": "1",
+          "Name": "Police Notified Indicator",
+          "Position": "ACC.10",
+          "Rpt": "1",
+          "TableId": "0136",
+          "TableName": "Yes/no indicator",
+          "Type": "Field",
+          "Usage": "O"
+        },
+        {
+          "DataType": "XAD",
+          "DataTypeName": "Extended Address",
+          "Description": {
+            "@i:nil": "true"
+          },
+          "Id": "ACC.11",
+          "Length": "250",
+          "Name": "Accident Address",
+          "Position": "ACC.11",
+          "Rpt": "1",
+          "TableId": {
+            "@i:nil": "true"
+          },
+          "TableName": {
+            "@i:nil": "true"
+          },
+          "Type": "Field",
+          "Usage": "O"
+        }
+      ]
+    },
+    "Id": "ACC",
+    "LongName": "Accident",
+    "Sample": null,
+    "SegmentId": "ACC"
+  }
+}
