@@ -93,7 +93,7 @@ def hl7_to_dict(hl7_text:str) -> dict:
 
 
 def hl7_to_xml(hl7_text:str) -> str:
-    """dict2xml will not have a main root tag, so I have to add the root tag and the tabs in manually here"""
+    """dict2xml will not have a main root tag, so I have to add the root tag in manually here"""
     parsed_message = dict2xml(hl7_to_dict(hl7_text))
     updated_parsed_message = ""
     for line in parsed_message.splitlines():
