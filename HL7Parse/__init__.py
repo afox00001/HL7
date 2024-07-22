@@ -1,11 +1,17 @@
 import json
-from dict2xml import dict2xml
 import os
 
-def parse(message:str, line_separator='\n'):
+from dict2xml import dict2xml
+
+
+def parse(message: str, line_separator='\n'):
+    field_separator_index = 3
+    subcomponent_separator = 4
+    meta_data_header_name = "MSH"
+
     parsed_message = ParsedMessage(message)
-    field_separator = message[3]
-    subcomponent_separator = message[4]
+    field_separator = message[field_separator_index]
+    subcomponent_separator = message[subcomponent_separator]
 
     for line in message.split(line_separator):
         repeated_segment = False
@@ -23,7 +29,7 @@ def parse(message:str, line_separator='\n'):
 
         subcomponents = [[segment_name]]
         field_start = 1
-        if segment_name == 'MSH':
+        if segment_name == meta_data_header_name:
             subcomponents.append([field_separator])
             subcomponents.append([fields[1]])
             field_start = 2
@@ -37,15 +43,15 @@ def parse(message:str, line_separator='\n'):
 
 
 class ParsedMessage:
-    def __init__(self, message:str) -> None:
+    def __init__(self, message: str) -> None:
         self.segments = []
         self.raw_message = message
         self.raw_message_length = len(message)
 
-    def get_segment(self, segment_name:str):
+    def get_segment(self, segment_name: str):
         return [seg for seg in self.segments if seg.name == segment_name][0]
 
-    def segment_exists(self, segment_name:str) ->bool:
+    def segment_exists(self, segment_name: str) -> bool:
         return segment_name in [seg.name for seg in self.segments]
 
     def segment_count(self, segment_name=None) -> int:
@@ -73,7 +79,7 @@ class HL7Segment:
         self.name = ''
 
 
-def hl7_to_dict(hl7_text:str) -> dict:
+def hl7_to_dict(hl7_text: str) -> dict:
     parsed_message = parse(hl7_text, '\n')
     data = {}
     segment_truth_tables = json.load(
@@ -91,7 +97,7 @@ def hl7_to_dict(hl7_text:str) -> dict:
     return data
 
 
-def hl7_to_xml(hl7_text:str) -> str:
+def hl7_to_xml(hl7_text: str) -> str:
     """dict2xml will not have a main root tag, so I have to add the root tag in manually here"""
     parsed_message = dict2xml(hl7_to_dict(hl7_text))
     updated_parsed_message = ""
@@ -100,21 +106,22 @@ def hl7_to_xml(hl7_text:str) -> str:
     return f"<message>{updated_parsed_message}\n</message>"
 
 
-def hl7_to_xml_file(hl7_text:str, output_fp:str) -> None:
+def hl7_to_xml_file(hl7_text: str, output_fp: str) -> None:
     data = hl7_to_xml(hl7_text)
     with open(output_fp, 'w') as output_file:
         output_file.write(data)
 
 
-def hl7_to_json_file(hl7_text:str, output_fp:str) -> None:
+def hl7_to_json_file(hl7_text: str, output_fp: str) -> None:
     data = hl7_to_dict(hl7_text)
     json.dump(data, open(output_fp, 'w'))
 
 
-def hl7_file_to_json_file(hl7_fp:str, output_fp:str) -> None:
+def hl7_file_to_json_file(hl7_fp: str, output_fp: str) -> None:
     with open(hl7_fp, 'r') as hl7_file:
         hl7_to_json_file(hl7_file.read(), output_fp)
 
-def hl7_file_to_xml_file(hl7_fp:str, output_fp:str) -> None:
+
+def hl7_file_to_xml_file(hl7_fp: str, output_fp: str) -> None:
     with open(hl7_fp, 'r') as hl7_file:
         hl7_to_xml_file(hl7_file.read(), output_fp)

@@ -9,6 +9,6 @@ for seg in jfile:
     print(req_data)
     data[seg["id"]] = []
     for item in req_data["fields"]:
-        data[seg["id"]].append(item["name"].lower().replace(" ", "_").replace("/", "_").replace("-", "_"))
+        data[seg["id"]].append(item["name"].lower().replace(" ", "_").replace("/", "_").replace("-", "_").replace("__", "_").replace("___", "_").replace("____", "_"))
 json.dump(data, open("config.json", "w"))
 print(data)
