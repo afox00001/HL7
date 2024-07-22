@@ -1,6 +1,6 @@
 
 # HL7 Converter
-This convert HL7 files to either XML or JSON files. There is also a module for converting XML files to JSON. NOTE the CLI scripts have to be ran in the same directory as the "HL7 Parser" package is located.
+This converts HL7 files to either XML or JSON files. There is also a module for converting XML files to JSON. NOTE the CLI scripts have to be ran in the same directory as the "HL7 Parser" package is located.
 # HL7Parse Library
 The HL7Parse Library consists of 6 main functions:
 
