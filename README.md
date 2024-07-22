@@ -1,6 +1,8 @@
 
 # HL7 Converter
 This converts HL7 files to either XML or JSON files. There is also a module for converting XML files to JSON. NOTE the CLI scripts have to be ran in the same directory as the "HL7 Parser" package is located.
+#Where I Got the Information for the HL7 Standard at
+I was able to write this project using the functionality that just takes in the HL7 file, and compares it to the "config.json" file. the config.json file contains a list of "segments" in the order they appear in HL7 files. I was able to pull this information from https://hl7-definition.caristix.com using the "Config_grabber" script (located in the Config_grabber directory).
 # HL7Parse Library
 The HL7Parse Library consists of 6 main functions:
 
