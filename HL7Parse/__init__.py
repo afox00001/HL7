@@ -84,11 +84,10 @@ def hl7_to_dict(hl7_text:str) -> dict:
         for sub_segment_id, sub_segment in enumerate(segment.values[0][1:]):
             if segment_name in segment_truth_tables:
                 data[segment_name][segment_truth_tables[segment_name][sub_segment_id]] = sub_segment
+            elif segment_name is None or segment_name == "":
+                pass
             else:
-                if segment_name is None or segment_name == "":
-                    pass
-                else:
-                    raise KeyError(f"The '{segment_name}' segment is not in config/segment_truth_table.json")
+                raise KeyError(f"The '{segment_name}' segment is not in config/segment_truth_table.json")
     return data
 
 
