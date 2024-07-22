@@ -6,18 +6,20 @@ from dict2xml import dict2xml
 
 def parse(message: str, line_separator='\n'):
     field_separator_index = 3
-    subcomponent_separator = 4
+    subcomponent_separator_index = 4
+    segment_name_index = 0
+
     meta_data_header_name = "MSH"
 
     parsed_message = ParsedMessage(message)
     field_separator = message[field_separator_index]
-    subcomponent_separator = message[subcomponent_separator]
+    subcomponent_separator = message[subcomponent_separator_index]
 
     for line in message.split(line_separator):
         repeated_segment = False
 
         fields = line.split(field_separator)
-        segment_name = fields[0]
+        segment_name = fields[segment_name_index]
 
         if parsed_message.segment_exists(segment_name):
             segment = parsed_message.get_segment(segment_name)
@@ -85,6 +87,7 @@ def hl7_to_dict(hl7_text: str) -> dict:
     segment_truth_tables = json.load(
         open(os.path.dirname(os.path.realpath(__file__)) + "\\config\\segment_truth_table.json", "r"))
     for segment in parsed_message.segments:
+        """The 'segment name' is in the first sub-segment, hence [0][0][0]"""
         segment_name = str(segment.values[0][0][0]).upper()
         data[segment_name] = {}
         for sub_segment_id, sub_segment in enumerate(segment.values[0][1:]):
