@@ -4,7 +4,7 @@ This converts HL7 files to either XML or JSON files. There is also a module for 
 # Where I Got the Information for the HL7 Standard
 I was able to write this project using the functionality that just takes in the HL7 file, and compares it to the "config.json" file. the config.json file contains a list of "segments" in the order they appear in HL7 files. I was able to pull this information from [https://hl7-definition.caristix.com/v2/HL7v2.5.1](https://hl7-definition.caristix.com/v2/HL7v2.5.1) using the "Config_grabber" script (located in the Config_grabber directory).
 
-I go over how this project works in detail in my (Medium artical) [https://ashtonsfox.medium.com/how-to-convert-hl7-files-to-json-and-xml-using-python-fdaa2c15370b]
+I go over how this project works in detail in my [Medium artical] (https://ashtonsfox.medium.com/how-to-convert-hl7-files-to-json-and-xml-using-python-fdaa2c15370b)
 # HL7Parse Library
 The HL7Parse Library consists of 6 main functions:
 
