@@ -53,7 +53,7 @@ AIG|1|A|1^White, Charles|D^^
 AIL|1|A|OFFICE^^^OFFICE|^Main Office||20110614084500|||45|m^Minutes||Scheduled
 AIP|1|A|1^White^Charles^A^MD^^^^|D^White, Douglas||20110614084500|||45|m^Minutes||Scheduled
 ```
-Output JSON file (test.json):
+Example output JSON file (test.json):
 ```json
 {
   "MSH": {
@@ -325,7 +325,7 @@ XML input (test.xml):
 </message>
 ```
 
-JSON output file contents:
+Example JSON output file contents:
 ```json
 {
   "message": {
