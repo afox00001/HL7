@@ -8,7 +8,6 @@ def parse(message: str, line_separator='\n'):
     field_separator_index = 3
     subcomponent_separator_index = 4
     segment_name_index = 0
-
     meta_data_header_name = "MSH"
 
     parsed_message = ParsedMessage(message)

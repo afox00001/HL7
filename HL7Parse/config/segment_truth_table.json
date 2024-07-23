@@ -11,7 +11,7 @@
     "case_category_code",
     "caesarian_section_indicator",
     "gestation_category_code",
-    "gestation_period___weeks",
+    "gestation_period__weeks",
     "newborn_code",
     "stillborn_indicator"
   ],
@@ -32,14 +32,14 @@
     "addendum_continuation_pointer"
   ],
   "AFF": [
-    "set_id___aff",
+    "set_id__aff",
     "professional_organization",
     "professional_organization_address",
     "professional_organization_affiliation_date_range",
     "professional_affiliation_additional_information"
   ],
   "AIG": [
-    "set_id___aig",
+    "set_id__aig",
     "segment_action_code",
     "resource_id",
     "resource_type",
@@ -55,7 +55,7 @@
     "filler_status_code"
   ],
   "AIL": [
-    "set_id___ail",
+    "set_id__ail",
     "segment_action_code",
     "location_resource_id",
     "location_type_ail",
@@ -69,7 +69,7 @@
     "filler_status_code"
   ],
   "AIP": [
-    "set_id___aip",
+    "set_id__aip",
     "segment_action_code",
     "personnel_resource_id",
     "resource_type",
@@ -83,7 +83,7 @@
     "filler_status_code"
   ],
   "AIS": [
-    "set_id___ais",
+    "set_id__ais",
     "segment_action_code",
     "universal_service_identifier",
     "start_date_time",
@@ -97,7 +97,7 @@
     "filler_supplemental_service_information"
   ],
   "AL1": [
-    "set_id___al1",
+    "set_id__al1",
     "allergen_type_code",
     "allergen_code_mnemonic_description",
     "allergy_severity_code",
@@ -175,9 +175,9 @@
     "charge_type_reason"
   ],
   "BPO": [
-    "set_id___bpo",
+    "set_id__bpo",
     "bp_universal_service_id",
-    "bp__processing_requirements",
+    "bp_processing_requirements",
     "bp_quantity",
     "bp_amount",
     "bp_units",
@@ -191,13 +191,13 @@
     "bp_informed_consent_indicator"
   ],
   "BPX": [
-    "set_id___bpx",
+    "set_id__bpx",
     "bp_dispense_status",
     "bp_status",
     "bp_date_time_of_status",
     "bc_donation_id",
     "bc_component",
-    "bc_donation_type___intended_use",
+    "bc_donation_type__intended_use",
     "cp_commercial_product",
     "cp_manufacturer",
     "cp_lot_number",
@@ -219,7 +219,7 @@
     "batch_totals"
   ],
   "BTX": [
-    "set_id___btx",
+    "set_id__btx",
     "bc_donation_id",
     "bc_component",
     "bc_blood_group",
@@ -240,7 +240,7 @@
     "bp_transfusion_interrupted_reason"
   ],
   "CDM": [
-    "primary_key_value___cdm",
+    "primary_key_value__cdm",
     "charge_code_alias",
     "charge_description_short",
     "charge_description_long",
@@ -255,7 +255,7 @@
     "room_fee_indicator"
   ],
   "CER": [
-    "set_id___cer",
+    "set_id__cer",
     "serial_number",
     "version",
     "granting_authority",
@@ -288,7 +288,7 @@
     "certificate_status"
   ],
   "CM0": [
-    "set_id___cm0",
+    "set_id__cm0",
     "sponsor_study_id",
     "alternate_study_id",
     "title_of_study",
@@ -301,12 +301,12 @@
     "contact's_address"
   ],
   "CM1": [
-    "set_id___cm1",
+    "set_id__cm1",
     "study_phase_identifier",
     "description_of_study_phase"
   ],
   "CM2": [
-    "set_id___cm2",
+    "set_id__cm2",
     "scheduled_time_point",
     "description_of_time_point",
     "events_scheduled_this_time_point"
@@ -320,7 +320,7 @@
     "ending_notification_code"
   ],
   "CON": [
-    "set_id___con",
+    "set_id__con",
     "consent_type",
     "consent_form_id",
     "consent_form_number",
@@ -357,7 +357,7 @@
     "alternate_study_id",
     "institution_registering_the_patient",
     "sponsor_patient_id",
-    "alternate_patient_id___csr",
+    "alternate_patient_id__csr",
     "date_time_of_patient_study_registration",
     "person_performing_study_registration",
     "study_authorizing_provider",
@@ -390,7 +390,7 @@
     "study_scheduled_time_point"
   ],
   "DB1": [
-    "set_id___db1",
+    "set_id__db1",
     "disabled_person_code",
     "disabled_person_identifier",
     "disabled_indicator",
@@ -400,9 +400,9 @@
     "disability_unable_to_work_date"
   ],
   "DG1": [
-    "set_id___dg1",
+    "set_id__dg1",
     "diagnosis_coding_method",
-    "diagnosis_code___dg1",
+    "diagnosis_code__dg1",
     "diagnosis_description",
     "diagnosis_date_time",
     "diagnosis_type",
@@ -440,7 +440,7 @@
     "continuation_style"
   ],
   "DSP": [
-    "set_id___dsp",
+    "set_id__dsp",
     "display_level",
     "data_line",
     "logical_break_point",
@@ -459,7 +459,7 @@
     "command_response_parameters"
   ],
   "EDU": [
-    "set_id___edu",
+    "set_id__edu",
     "academic_degree",
     "academic_degree_program_date_range",
     "academic_degree_program_participation_date_range",
@@ -546,7 +546,7 @@
     "reference_file_control_id"
   ],
   "FT1": [
-    "set_id___ft1",
+    "set_id__ft1",
     "transaction_id",
     "transaction_batch_id",
     "transaction_date",
@@ -554,17 +554,17 @@
     "transaction_type",
     "transaction_code",
     "transaction_description",
-    "transaction_description___alt",
+    "transaction_description__alt",
     "transaction_quantity",
-    "transaction_amount___extended",
-    "transaction_amount___unit",
+    "transaction_amount__extended",
+    "transaction_amount__unit",
     "department_code",
     "insurance_plan_id",
     "insurance_amount",
     "assigned_patient_location",
     "fee_schedule",
     "patient_type",
-    "diagnosis_code___ft1",
+    "diagnosis_code__ft1",
     "performed_by_code",
     "ordered_by_code",
     "unit_cost",
@@ -629,20 +629,20 @@
     "pay_rate_per_service_unit"
   ],
   "GT1": [
-    "set_id___gt1",
+    "set_id__gt1",
     "guarantor_number",
     "guarantor_name",
     "guarantor_spouse_name",
     "guarantor_address",
-    "guarantor_ph_num___home",
-    "guarantor_ph_num___business",
+    "guarantor_ph_num__home",
+    "guarantor_ph_num__business",
     "guarantor_date_time_of_birth",
     "guarantor_administrative_sex",
     "guarantor_type",
     "guarantor_relationship",
     "guarantor_ssn",
-    "guarantor_date___begin",
-    "guarantor_date___end",
+    "guarantor_date__begin",
+    "guarantor_date__end",
     "guarantor_priority",
     "guarantor_employer_name",
     "guarantor_employer_address",
@@ -688,7 +688,7 @@
     "vip_indicator"
   ],
   "IAM": [
-    "set_id___iam",
+    "set_id__iam",
     "allergen_type_code",
     "allergen_code_mnemonic_description",
     "allergy_severity_code",
@@ -710,7 +710,7 @@
     "statused_at_date_time"
   ],
   "IIM": [
-    "primary_key_value___iim",
+    "primary_key_value__iim",
     "service_item_code",
     "inventory_lot_number",
     "inventory_expiration_date",
@@ -727,7 +727,7 @@
     "procedure_code_modifier"
   ],
   "IN1": [
-    "set_id___in1",
+    "set_id__in1",
     "insurance_plan_id",
     "insurance_company_id",
     "insurance_company_name",
@@ -764,10 +764,10 @@
     "company_plan_code",
     "policy_number",
     "policy_deductible",
-    "policy_limit___amount",
-    "policy_limit___days",
-    "room_rate___semi_private",
-    "room_rate___private",
+    "policy_limit__amount",
+    "policy_limit__days",
+    "room_rate__semi_private",
+    "room_rate__private",
     "insured's_employment_status",
     "insured's_administrative_sex",
     "insured's_employer's_address",
@@ -844,7 +844,7 @@
     "policy_source",
     "patient_member_number",
     "guarantor's_relationship_to_insured",
-    "insured's_phone_number___home",
+    "insured's_phone_number__home",
     "insured's_employer_phone_number",
     "military_handicapped_program",
     "suspend_flag",
@@ -856,7 +856,7 @@
     "cms_patient's_relationship_to_insured"
   ],
   "IN3": [
-    "set_id___in3",
+    "set_id__in3",
     "certification_number",
     "certified_by",
     "certification_required",
@@ -921,43 +921,43 @@
     "interaction_active_state"
   ],
   "LAN": [
-    "set_id___lan",
+    "set_id__lan",
     "language_code",
     "language_ability_code",
     "language_proficiency_code"
   ],
   "LCC": [
-    "primary_key_value___lcc",
+    "primary_key_value__lcc",
     "location_department",
     "accommodation_type",
     "charge_code"
   ],
   "LCH": [
-    "primary_key_value___lch",
+    "primary_key_value__lch",
     "segment_action_code",
     "segment_unique_key",
     "location_characteristic_id",
     "location_characteristic_value_lch"
   ],
   "LDP": [
-    "primary_key_value___ldp",
+    "primary_key_value__ldp",
     "location_department",
     "location_service",
     "specialty_type",
     "valid_patient_classes",
     "active_inactive_flag",
-    "activation_date___ldp",
-    "inactivation_date___ldp",
+    "activation_date__ldp",
+    "inactivation_date__ldp",
     "inactivated_reason",
     "visiting_hours",
     "contact_phone",
     "location_cost_center"
   ],
   "LOC": [
-    "primary_key_value___loc",
+    "primary_key_value__loc",
     "location_description",
-    "location_type___loc",
-    "organization_name___loc",
+    "location_type__loc",
+    "organization_name__loc",
     "location_address",
     "location_phone",
     "license_number",
@@ -965,7 +965,7 @@
     "location_service_code"
   ],
   "LRL": [
-    "primary_key_value___lrl",
+    "primary_key_value__lrl",
     "segment_action_code",
     "segment_unique_key",
     "location_relationship_id",
@@ -977,14 +977,14 @@
     "mfn_control_id",
     "event_completion_date_time",
     "mfn_record_level_error_return",
-    "primary_key_value___mfa",
-    "primary_key_value_type___mfa"
+    "primary_key_value__mfa",
+    "primary_key_value_type__mfa"
   ],
   "MFE": [
     "record_level_event_code",
     "mfn_control_id",
     "effective_date_time",
-    "primary_key_value___mfe",
+    "primary_key_value__mfe",
     "primary_key_value_type"
   ],
   "MFI": [
@@ -1045,7 +1045,7 @@
     "notification_code"
   ],
   "NK1": [
-    "set_id___nk1",
+    "set_id__nk1",
     "nk_name",
     "relationship",
     "address",
@@ -1054,10 +1054,10 @@
     "contact_role",
     "start_date",
     "end_date",
-    "next_of_kin___associated_parties_job_title",
-    "next_of_kin___associated_parties_job_code_class",
-    "next_of_kin___associated_parties_employee_number",
-    "organization_name___nk1",
+    "next_of_kin__associated_parties_job_title",
+    "next_of_kin__associated_parties_job_code_class",
+    "next_of_kin__associated_parties_employee_number",
+    "organization_name__nk1",
     "marital_status",
     "administrative_sex",
     "date_time_of_birth",
@@ -1118,17 +1118,17 @@
     "application_control_level_errors"
   ],
   "NTE": [
-    "set_id___nte",
+    "set_id__nte",
     "source_of_comment",
     "comment",
     "comment_type"
   ],
   "OBR": [
-    "set_id___obr",
+    "set_id__obr",
     "placer_order_number",
     "filler_order_number",
     "universal_service_identifier",
-    "priority___obr",
+    "priority__obr",
     "requested_date_time",
     "observation_date_time",
     "observation_end_date_time",
@@ -1145,7 +1145,7 @@
     "placer_field_2",
     "filler_field_1",
     "filler_field_2",
-    "results_rpt_status_chng___date_time",
+    "results_rpt_status_chng__date_time",
     "charge_to_practice",
     "diagnostic_serv_sect_id",
     "result_status",
@@ -1175,7 +1175,7 @@
     "result_handling"
   ],
   "OBX": [
-    "set_id___obx",
+    "set_id__obx",
     "value_type",
     "observation_identifier",
     "observation_sub_id",
@@ -1207,7 +1207,7 @@
     "text_instruction"
   ],
   "OM1": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "producer's_service_test_observation_id",
     "permitted_data_types",
     "specimen_required",
@@ -1256,19 +1256,19 @@
     "modality_of_imaging_measurement"
   ],
   "OM2": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "units_of_measure",
     "range_of_decimal_precision",
     "corresponding_si_units_of_measure",
     "si_conversion_factor",
-    "reference_(normal)_range___ordinal_and_continuous_observations",
+    "reference_(normal)_range__ordinal_and_continuous_observations",
     "critical_range_for_ordinal_and_continuous_observations",
     "absolute_range_for_ordinal_and_continuous_observations",
     "delta_check_criteria",
     "minimum_meaningful_increments"
   ],
   "OM3": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "preferred_coding_system",
     "valid_coded_'answers'",
     "normal_text_codes_for_categorical_observations",
@@ -1277,7 +1277,7 @@
     "value_type"
   ],
   "OM4": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "derived_specimen",
     "container_description",
     "container_volume",
@@ -1293,16 +1293,16 @@
     "specimen_retention_time"
   ],
   "OM5": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "test_observations_included_within_an_ordered_test_battery",
     "observation_id_suffixes"
   ],
   "OM6": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "derivation_rule"
   ],
   "OM7": [
-    "sequence_number___test_observation_master_file",
+    "sequence_number__test_observation_master_file",
     "universal_service_identifier",
     "category_identifier",
     "category_description",
@@ -1325,7 +1325,7 @@
     "orderable_at_location",
     "formulary_status",
     "special_order_indicator",
-    "primary_key_value___cdm"
+    "primary_key_value__cdm"
   ],
   "ORC": [
     "order_control",
@@ -1360,7 +1360,7 @@
     "enterer_authorization_mode"
   ],
   "ORG": [
-    "set_id___org",
+    "set_id__org",
     "organization_unit_code",
     "organization_unit_type_code",
     "primary_org_unit_indicator",
@@ -1499,10 +1499,10 @@
     "event_reported_to"
   ],
   "PID": [
-    "set_id___pid",
+    "set_id__pid",
     "patient_id",
     "patient_identifier_list",
-    "alternate_patient_id___pid",
+    "alternate_patient_id__pid",
     "patient_name",
     "mother's_maiden_name",
     "date_time_of_birth",
@@ -1511,14 +1511,14 @@
     "race",
     "patient_address",
     "county_code",
-    "phone_number___home",
-    "phone_number___business",
+    "phone_number__home",
+    "phone_number__business",
     "primary_language",
     "marital_status",
     "religion",
     "patient_account_number",
-    "ssn_number___patient",
-    "driver's_license_number___patient",
+    "ssn_number__patient",
+    "driver's_license_number__patient",
     "mother's_identifier",
     "ethnic_group",
     "birth_place",
@@ -1540,7 +1540,7 @@
     "tribal_citizenship"
   ],
   "PR1": [
-    "set_id___pr1",
+    "set_id__pr1",
     "procedure_coding_method",
     "procedure_code",
     "procedure_description",
@@ -1562,7 +1562,7 @@
     "procedure_action_code"
   ],
   "PRA": [
-    "primary_key_value___pra",
+    "primary_key_value__pra",
     "practitioner_group",
     "practitioner_category",
     "provider_billing",
@@ -1573,7 +1573,7 @@
     "institution",
     "date_left_practice",
     "government_reimbursement_billing_eligibility",
-    "set_id___pra"
+    "set_id__pra"
   ],
   "PRB": [
     "action_code",
@@ -1603,8 +1603,8 @@
     "security_sensitivity"
   ],
   "PRC": [
-    "primary_key_value___prc",
-    "facility_id___prc",
+    "primary_key_value__prc",
+    "facility_id__prc",
     "department",
     "valid_patient_classes",
     "price",
@@ -1658,7 +1658,7 @@
     "change_pathway_life_cycle_status_date_time"
   ],
   "PV1": [
-    "set_id___pv1",
+    "set_id__pv1",
     "patient_class",
     "assigned_patient_location",
     "admission_type",
@@ -1840,7 +1840,7 @@
     "external_referral_identifier"
   ],
   "RGS": [
-    "set_id___rgs",
+    "set_id__rgs",
     "segment_action_code",
     "resource_group_id"
   ],
@@ -1874,8 +1874,8 @@
   ],
   "RQD": [
     "requisition_line_number",
-    "item_code___internal",
-    "item_code___external",
+    "item_code__internal",
+    "item_code__external",
     "hospital_item_code",
     "requisition_quantity",
     "requisition_unit_of_measure",
@@ -1905,7 +1905,7 @@
     "substance_treatment_refusal_reason",
     "indication",
     "completion_status",
-    "action_code___rxa",
+    "action_code__rxa",
     "system_entry_date_time",
     "administered_drug_strength_volume",
     "administered_drug_strength_volume_units",
@@ -1961,8 +1961,8 @@
   "RXE": [
     "quantity_timing",
     "give_code",
-    "give_amount___minimum",
-    "give_amount___maximum",
+    "give_amount__minimum",
+    "give_amount__maximum",
     "give_units",
     "give_dosage_form",
     "provider's_administration_instructions",
@@ -2009,8 +2009,8 @@
     "dispense_sub_id_counter",
     "quantity_timing",
     "give_code",
-    "give_amount___minimum",
-    "give_amount___maximum",
+    "give_amount__minimum",
+    "give_amount__maximum",
     "give_units",
     "give_dosage_form",
     "administration_notes",
@@ -2034,8 +2034,8 @@
   ],
   "RXO": [
     "requested_give_code",
-    "requested_give_amount___minimum",
-    "requested_give_amount___maximum",
+    "requested_give_amount__minimum",
+    "requested_give_amount__maximum",
     "requested_give_units",
     "requested_dosage_form",
     "provider's_pharmacy_treatment_instructions",
@@ -2082,7 +2082,7 @@
     "carrier_type",
     "carrier_identifier",
     "position_in_carrier",
-    "tray_type___sac",
+    "tray_type__sac",
     "tray_identifier",
     "position_in_tray",
     "location",
@@ -2154,13 +2154,13 @@
     "software_install_date"
   ],
   "SID": [
-    "application___method_identifier",
+    "application__method_identifier",
     "substance_lot_number",
     "substance_container_identifier",
     "substance_manufacturer_identifier"
   ],
   "SPM": [
-    "set_id___spm",
+    "set_id__spm",
     "specimen_id",
     "specimen_parent_ids",
     "specimen_type",
@@ -2197,7 +2197,7 @@
     "input_parameter_list"
   ],
   "STF": [
-    "primary_key_value___stf",
+    "primary_key_value__stf",
     "staff_identifier_list",
     "staff_name",
     "staff_type",
@@ -2205,7 +2205,7 @@
     "date_time_of_birth",
     "active_inactive_flag",
     "department",
-    "hospital_service___stf",
+    "hospital_service__stf",
     "phone",
     "office_home_address_birthplace",
     "institution_activation_date",
@@ -2218,7 +2218,7 @@
     "job_code_class",
     "employment_status_code",
     "additional_insured_on_auto",
-    "driver's_license_number___staff",
+    "driver's_license_number__staff",
     "copy_auto_ins",
     "auto_ins._expires",
     "date_last_dmv_review",
@@ -2263,7 +2263,7 @@
     "analyte_repeat_status"
   ],
   "TQ1": [
-    "set_id___tq1",
+    "set_id__tq1",
     "quantity",
     "repeat_pattern",
     "explicit_time",
@@ -2279,7 +2279,7 @@
     "total_occurrences"
   ],
   "TQ2": [
-    "set_id___tq2",
+    "set_id__tq2",
     "sequence_results_flag",
     "related_placer_number",
     "related_filler_number",
@@ -2291,7 +2291,7 @@
     "special_service_request_relationship"
   ],
   "TXA": [
-    "set_id___txa",
+    "set_id__txa",
     "document_type",
     "document_content_presentation",
     "activity_date_time",
@@ -2316,7 +2316,7 @@
     "distributed_copies_(code_and_name_of_recipients)_"
   ],
   "UB1": [
-    "set_id___ub1",
+    "set_id__ub1",
     "blood_deductible_(43)",
     "blood_furnished_pints_of_(40)",
     "blood_replaced_pints_(41)",
@@ -2341,7 +2341,7 @@
     "ub_82_locator_45"
   ],
   "UB2": [
-    "set_id___ub2",
+    "set_id__ub2",
     "co_insurance_days_(9)",
     "condition_code_(24_30)",
     "covered_days_(7)",
